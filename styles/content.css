@@ -1,0 +1,8 @@
+/* Styles for content script */
+.highlighted-element {
+  background-color: yellow;
+  outline: 2px solid orange;
+  outline-offset: 2px;
+}
+
+/* Additional styles can be added here */

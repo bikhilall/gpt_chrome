@@ -1,0 +1,40 @@
+/* Styles for popup */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  padding: 20px;
+  width: 300px;
+}
+
+#commandInput {
+  width: calc(100% - 20px);
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#submitCommand {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#submitCommand:hover {
+  background-color: #4cae4c;
+}
+
+#responseSection {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 100px;
+  overflow-y: auto;
+  background: white;
+  border-radius: 4px;
+}
